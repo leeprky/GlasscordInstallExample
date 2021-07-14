@@ -1,5 +1,7 @@
 # GlasscordInstallExample
 
+Not The Installer... Go https://github.com/leeprky/Useful-Batch-Scripts/tree/main/Glasscord
+
 # Requirements
 
 Git: https://git-scm.com/downloads
