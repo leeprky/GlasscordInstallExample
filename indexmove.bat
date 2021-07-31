@@ -13,5 +13,7 @@ echo off
 <nul set /p ".=%DEL%" > "%~2"
 findstr /v /a:%1 /R "^$" "%~2" nul
 del "%~2" > nul 2>&1i
-timeout 10 /nobreak
-close
+timeout 3 /nobreak
+taskkill /IM DiscordCanary.exe /F
+start %USERPROFILE%\AppData\Local\DiscordCanary\Update.exe --processStart DiscordCanary.exe
+pause
